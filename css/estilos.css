@@ -1,0 +1,208 @@
+/*variables */
+:root{
+	--orange-color:#d98721;
+	--blue-color:#4672af;
+	--piel-color:#f4e0d9;
+	--gray-color:#e2e2e2;
+	--white-color:#fff;
+	--black-color:#000;
+	/*tipografia*/
+	--normal:12px;
+	/* espacios*/
+	--space:10px;
+	/* box-shadow*/
+	--box:0px 0px 2px 1px #55d5e0;
+
+
+
+
+
+
+}
+
+
+/* variables */
+
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+	
+	font-family: Helvetica ;
+	font-size: var(--normal);
+	font-family:'Open Sans', sans-serif;
+
+}
+p, label{
+	font-size:var(--normal);
+
+
+}
+label{
+
+}
+
+nav{
+	display: flex;
+	background-color:var(--piel-color);
+	padding: var(--space);
+	color:var(--blue-color);
+	justify-content:space-between;
+	align-items:center;
+}
+nav ul {
+	display: flex;
+}
+nav ul li{
+	padding-left: 20px;
+	list-style:none;
+}
+nav ul li a{
+	color:var(--blue-color);
+	text-decoration:none;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color:var(--orange-color);
+}
+
+/*........................................*/
+
+.main_seccion{
+	padding:15%;
+	text-align:center;
+	background-color:;
+
+}
+
+
+
+.products{
+	background-image: url('../images/curve.jpg');
+	height: 50px;
+	background-size:cover;
+	background-position:center top;
+	padding:15%;
+	display:flex;
+}
+.product{
+	padding:var(--space);
+	margin-top:-160px;
+}
+.product .content{
+	background-color:white;
+	padding:15px;
+	box-shadow:var(--box);
+
+}
+.image_content{
+	text-align:center;
+
+}
+
+.main_button{
+	background-color:var(--piel-color);
+	width: 100%;
+	padding: var(--space);
+	font-size: 17px;
+	color: var(--blue-color);
+	border:none;
+	cursor:pointer;
+	border-radius:2px;
+}
+
+.main_button:hover{
+	background-color:var(--orange-color);
+
+}
+
+/*  madia_seccion */
+
+.media_seccion{
+	background-color:var(--gray-color);
+	text-align: center;
+	
+	
+}
+
+.features{
+	display:flex;
+
+	
+
+}
+
+.features_list{
+
+
+}
+
+
+/*   end_seccion  */
+
+.end_seccion{
+	background-color:var(--gray-color);
+	text-align:center;
+	
+
+
+}
+
+.comment{
+	display:flex;
+
+
+}
+
+.comment_list{
+
+
+}
+
+
+/* ...................Venta.............. */
+
+.modulo_pago{
+	background-color:var(--white-color);
+	box-shadow: var(--box);
+	padding:var(--space);
+
+}
+.modulo_pago_images{
+	max-width:150px;
+	text-align:center;
+	width:100%;
+	margin:auto;
+}
+.data{
+	margin-top:var(--space);
+	width: 100%;
+	height:35px;
+	border-radius:2px;
+	border:1px solid var(--black-color);
+	box-sizing:border-box;
+
+}
+
+.modulo_pago .main_button{
+	margin-top:10px;
+}
+
+
+/*...................footer...............*/
+
+footer{
+	display:flex;
+	justify-content:space-between;
+	font-size:var(--normal);
+	background-color: var(--orange-color);
+	padding: var(--space);
+	color:var(--blue-color);
+	font-weight: bold;
+	
+
+}
+
+.contact a{
+	color:var(--blue-color);
+}

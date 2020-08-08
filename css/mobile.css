@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+
+	nav{
+		background-color: yellow;
+	}
+
+	.products{
+		display: inherit;
+		height: auto;
+	}
+
+	.product{
+		margin-top: auto;
+	}
+
+	.main_seccion{
+		padding: 4%;
+	}
+
+	.features, .comment{
+		display: inherit;
+	}
+
+	
+
+}
